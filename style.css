@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+.orange{
+    color: indianred;
+    
+}
+.grey{
+    color:gray
+}
+.footer-msg{
+    color: white;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 90%;
+}
+.third-width{
+    width: 30%;
+    float:left;
+    padding: 10px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:20px;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 27px;
+    align-items: center;
+}
+.third-width img{
+    width: 100%;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    font-weight: 100px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    align-items: center;
+    padding: 24px 32px;
+    border-radius: 50px;
+
+}
+.about-me{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    
+}
+
+.introduction{
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 2050px;
+    height: 720px;
+    left: 20px;
+    top: 902px;
+}
+.myimage{
+    position: absolute;
+    width: 735px;
+    height: 600px;
+    left: 0px;
+    top: 60px;
+    
+}
+
+.recipies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 1980px;
+    height: 700px;
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-top: 1120px;
+}
+.recipies h1{
+text-align: center;
+}
+.subscribers{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 2000px;
+    height: 460px;
+    left: 100px;
+    margin-top: 2400px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 50px;
+
+}
+.counter{
+    float: left;
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 5px;
+}
+
+.subscribers p{
+    font-size: smaller;
+}
+
+footer{
+    position: absolute;
+    margin-top: 3200px;
+    margin-left: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #0B0D17;
+    width: 2050px;
+    height: 450px;
+
+}
